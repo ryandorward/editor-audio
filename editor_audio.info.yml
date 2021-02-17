@@ -1,0 +1,11 @@
+name: 'Audio File Upload'
+type: module
+description: 'Allow users to upload audio files in the text Editor.'
+core: 8.x
+core_version_requirement: ^8 || ^9
+dependencies:
+  - drupal:ckeditor
+  - drupal:editor
+  - drupal:filter
+  - drupal:file
+configure: filter.admin_overview

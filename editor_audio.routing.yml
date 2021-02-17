@@ -1,0 +1,9 @@
+editor_audio.file_dialog:
+  path: '/editor_audio/dialog/audio_file/{filter_format}'
+  defaults:
+    _form: '\Drupal\editor_audio\Form\EditorAudioFileDialog'
+    _title: 'Add Audio'
+  options:
+    _theme: ajax_base_page
+  requirements:
+    _entity_access: 'filter_format.use'
